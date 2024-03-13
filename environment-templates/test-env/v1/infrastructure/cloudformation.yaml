@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: A stack for deploying containerized applications in AWS Fargate.
+             This stack runs containers in a public or private VPC subnet. 
+
+Resources:
+  nestStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: "https://s3-ap-northeast-1.amazonaws.com/cf-templates-13u7q5lqcdus2-ap-northeast-1/20240731DQ-template1ip6hkv3472p"
